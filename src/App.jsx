@@ -7,6 +7,7 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Vite />} />
+                <Route path="/demo" element={<div>Hello Cloud Demo</div>} />
             </Routes>
         </BrowserRouter>
     );

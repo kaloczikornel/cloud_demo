@@ -7,7 +7,6 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Vite />} />
-                <Route path="/" element={<Vite />} />
             </Routes>
         </BrowserRouter>
     );

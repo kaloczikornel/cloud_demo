@@ -6,8 +6,8 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Vite />} />
-                <Route path="/demo" element={<div>Hello Cloud Demo</div>} />
+                <Route exact path="/" element={<Vite />} />
+                <Route exact path="/demo" element={<div>Hello Cloud Demo</div>} />
             </Routes>
         </BrowserRouter>
     );
